@@ -1,0 +1,13 @@
+# *** Warning! Your custom domain is not using HTTPS yet ***
+# These rules will change if you change your site’s custom domains or HTTPS settings
+
+# Redirect domain aliases to primary domain
+http://phirannodesigns.com/* http://www.phirannodesigns.com.au/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+http://phirannodesigns.netlify.com/* http://www.phirannodesigns.com.au/:splat 301!
+
+/services/digital-marketing-port-macquarie/             /port-macquarie-services/digital-marketing/
+/services/graphic-design-port-macquarie/                /port-macquarie-services/graphic-design/
+/services/photography-and-videography-port-macquarie/   /port-macquarie-services/photography-and-videography/
+/services/web-design-port-macquarie/                    /port-macquarie-services/web-design/

@@ -1,0 +1,44 @@
+/* These classes have lower specificity so we can override them
+   with utility classes */
+
+/* Style selected text */
+::selection {
+  @apply text-white bg-teal-600;
+}
+
+/* Add extra blur to gatsby-images that haven't loaded yet */
+.gatsby-image-wrapper > img:first-child {
+  filter: blur(20px);
+}
+
+/* Tell Reach UI that we're handling all the styling */
+:root {
+  --reach-dialog: 1;
+}
+
+/* Remove blue outline when you click on one of the client logos */
+#clients .slider-slide:focus {
+  @apply outline-none;
+}
+
+/* Style background of an element to be gray-100 at the bottom */
+.bottom-half-gray-100::before {
+  content: "";
+  @apply absolute inset-x-0 bottom-0 bg-gray-100 h-1/2;
+}
+.bottom-half-white::before {
+  content: "";
+  @apply absolute inset-x-0 bottom-0 bg-white h-1/2;
+}
+
+/* Add teal sidebar accent */
+.teal-bar::before {
+  content: "";
+  @apply inset-y-0 fixed z-10 pointer-events-none w-2 bg-teal-600 h-1/2 my-auto hidden;
+}
+@screen sm {
+  .teal-bar::before {
+    content: "";
+    @apply block;
+  }
+}

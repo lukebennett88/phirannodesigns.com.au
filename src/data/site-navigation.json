@@ -1,0 +1,38 @@
+[
+  {
+    "label": "Graphic Design",
+    "bold": "Graphic",
+    "thin": "Design",
+    "slug": "/port-macquarie-services/graphic-design/"
+  },
+  {
+    "label": "Web Design",
+    "bold": "Web Design",
+    "thin": "& Development",
+    "slug": "/port-macquarie-services/web-design/"
+  },
+  {
+    "label": "Digital Marketing",
+    "bold": "Digital",
+    "thin": "Marketing",
+    "slug": "/port-macquarie-services/digital-marketing/"
+  },
+  {
+    "label": "Photography & Videography",
+    "bold": "Photography",
+    "thin": "& Videography",
+    "slug": "/port-macquarie-services/photography-and-videography/"
+  },
+  {
+    "label": "Meet the Team",
+    "bold": "Meet",
+    "thin": "the Team",
+    "slug": "/meet-the-team/"
+  },
+  {
+    "label": "Contact Us",
+    "bold": "Contact",
+    "thin": "Us",
+    "slug": "/contact/"
+  }
+]
